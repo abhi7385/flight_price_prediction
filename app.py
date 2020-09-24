@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 m=open("model.pkl", "rb")
 model = joblib.load(m)
+m.close()
 
 
 
@@ -267,7 +268,7 @@ def predict():
 
         return render_template('home.html',prediction_text="Your Flight price is Rs. {}".format(output))
 
-    m.close()
+    
 
 
     return render_template("home.html")
