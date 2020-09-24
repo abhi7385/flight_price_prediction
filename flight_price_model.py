@@ -335,7 +335,7 @@ file.close()
 #############
 model = open('model.pkl','rb')
 forest = joblib.load(model)
-
+model.close()
 ######
 y_prediction = forest.predict(X_test1)
 metrics.r2_score(y_test, y_prediction)
