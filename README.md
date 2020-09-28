@@ -12,7 +12,7 @@
 
 
 ## Demo
-Link: [https://ml-flight-price-prediction-api.herokuapp.com/](https://flight-price-prediction-api.herokuapp.com/)
+Link: [https://ml-flight-price-prediction-api.herokuapp.com/](https://ml-flight-price-prediction-api.herokuapp.com/)
 
 
 ## Overview
